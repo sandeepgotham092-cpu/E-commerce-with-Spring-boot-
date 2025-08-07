@@ -1,0 +1,39 @@
+.container1{
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.butt{
+    position: relative;
+    top:25%;
+    width: 20vb;
+    border-radius: 12px;
+    margin-right: 5vb;
+}
+.container1 img{
+    width:30vb;
+}
+.about{
+    width:30vb;
+    height: 20vh;
+    border: 1px solid rgb(192, 190, 190);
+    padding: 10px 20px;
+    text-align: center;
+    margin-top:15vh;
+    margin-right: 15vb;
+    margin-left: 10vb;
+    margin-bottom: 5vh;
+    border-radius: 12px;
+}
+.about p{
+    margin: auto;
+}
+.about:hover{
+    box-shadow: 3px 3px 15px rgb(146, 144, 144);
+}
+#add:hover{
+    background-color: greenyellow;
+}
+#remove:hover{
+    background-color: rgb(255, 89, 47);
+}

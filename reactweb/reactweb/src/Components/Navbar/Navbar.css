@@ -1,0 +1,59 @@
+html{
+    cursor:url(dot.png),auto;
+}
+.nav-logo img{
+    width:15vb;
+    cursor:url(dot.png),auto;   
+}
+.nav-logo p{
+   margin-left:2vb;
+   margin-top:-1vh;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:50px;
+    color: black;
+}
+.nav-menu{
+    font-size: 4vb;
+}
+.nav-login-cart {
+    display: flex;
+    margin-right:6vb;
+    width:auto;
+    margin-top:1vh;
+}
+.nav-login-cart div{
+    width:16px;
+    height:16px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    left:-1vb;
+    text-align: center;
+    color: white;
+   
+}
+.navbar button{
+    width:15vb;
+   font-size: 3vb;
+    margin-right: 7vb;
+    border-radius: 12px; 
+    cursor:url(dot.png),auto;
+}
+.navbar button:hover{
+    background-color: rgb(237, 237, 73);
+}
+.navbar button:active{
+    background-color:rgb(79, 234, 79);
+}
+ul hr{
+   background-color:rgb(79, 234, 79); ;
+}

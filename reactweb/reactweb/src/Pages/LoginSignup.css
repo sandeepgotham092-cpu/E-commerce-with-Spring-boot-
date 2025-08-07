@@ -1,0 +1,52 @@
+.box{
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    height: 700px;
+   width: 300px;
+   display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    border-radius: 12px;
+}
+.box .cname{
+    text-align: center;
+}
+.form p{
+    margin-top:20px;
+    margin-left: 10px;
+}
+.continue{
+    text-align: center;
+    border-radius: 12px;
+}
+.continue button{
+     border-radius: 12px;
+}
+.box .cname p{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#style{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    width: 20vb;
+   padding: 10px 4px;
+   border-radius: 12px;
+}
+#sign{
+    background-color: rgb(94, 253, 2);
+    color: black;
+    height: 4vh;
+    width: 20vb;
+    padding: 10px 4px;
+    border-radius: 12px;
+}
+.box:hover{
+    box-shadow: 3px 3px 17px rgb(129, 129, 129);
+}

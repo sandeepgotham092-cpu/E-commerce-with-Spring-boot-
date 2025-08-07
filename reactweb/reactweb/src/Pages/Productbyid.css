@@ -1,0 +1,36 @@
+.pro img{
+  width:40vb;
+   margin-left: 20vb;
+   border-radius: 12px;
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+  margin-top: 10px;
+  width: 30vb;
+  height: 40px;
+  background-color: rgb(24, 24, 24);
+  border: none;
+  border-radius: 40px;
+  color: rgb(246, 245, 245);
+  transition: all 0.3s;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: greenyellow;
+  color: rgb(12, 12, 12);
+}
+.pro button{
+   align-self: center;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.container #old{
+  text-decoration: line-through;
+}
